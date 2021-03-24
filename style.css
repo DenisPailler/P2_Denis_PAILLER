@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'fontraleway';
+    src: url('fontraleway/Raleway-VariableFont_wght.ttf') format('truetype'),
+         url('fontraleway/static/Raleway-Bold.ttf') format('truetype'),
+         url('fontraleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'fontralewaybold';
+    src: url('fontraleway/static/Raleway-Bold.ttf') format('truetype');
+}
+body{
+    font-family: 'fontraleway', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 {
+    font-size: 24px;
+}
+h2 {
+    font-size: 16px;
+}
+.title {
+    font-family: 'fontralewaybold';
+}
+.d-flex{
+    cursor: pointer;
+}
+
+/* Navigation */
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a {
+    text-decoration: none;
+    color:lightgray;
+}
+.nav_links li:hover{
+    color: #004EFF;
+    border-top: 2px solid #004EFF;
+}
+
+
+.d-flex{
+    width: 80px;
+    height: 40px;
+}
+.hebergements{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    height: 550px;
+    border-radius: 20px;
+    justify-content: space-between;
+    background-color: lightgray;
+}
+.card{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.card1{
+    display: flex;
+    margin: auto !important;
+    width: 400px;
+    height: 100px;
+    justify-content: space-around;
+}
+.card1:nth-child(1){
+    display: block;
+    background-color: cornflowerblue;
+    margin-top: 40px;
+
+}
+.card1:nth-child(2){
+    background-color: crimson;
+}
+.card1:nth-child(3){
+    background-color: darkcyan;
+}
+.les-plus-populaire{
+    width : 30%;
+    height: 550px;
+    border-radius: 20px;
+    background-color: gainsboro;
+    
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+.badge-complete{
+    display: inline-block;
+    padding: 20px 20px;
+    font-weight: 600;
+}   
+.mn-filtres{
+    display: flex;
+    width: 70%;
+}
+.badge{
+    border: 1px solid grey;
+    border-left: none;
+    border-radius: 40px;
+    padding: 10px;
+    padding-left: 0;
+    margin-left: 10px;
+}
+.card img{
+    display: block;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px 20px 0px 0px;
+    width: 240px;
+    height: 150px;
+}
+.card-title{
+    margin-left: 20px;
+}
+.card-text{
+    margin-left: 15px;
+    font-size: 14px;
+}
+.fas{
+    color:#004EFF;
+}
+.stars{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.badge .fas {
+    background-color: #DEEBFF;
+    /* background-size: 2em; */
+    margin: 0 10px 0 -1px ;
+    padding: 13px;
+    border-radius: 20px;
+}
